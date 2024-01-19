@@ -83,8 +83,8 @@ function Cart() {
     }
 
     var options = {
-      key: "rzp_test_Lv8fAL7JynRhAg",
-      key_secret: "rzp_test_Lv8fAL7JynRhAg",
+      key: import.meta.env.VITE_key,
+      key_secret: import.meta.env.VITE_key_secret,
       amount: parseInt(grandTotal * 100),
       currency: "INR",
       order_receipt: 'order_rcptid_' + name,
