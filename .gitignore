@@ -1,0 +1,9 @@
+node_modules
+node_modules
+
+#Ignore specific file
+.FirebaseConfig.jsx
+
+#Ignore specific keys
+key_secret
+key
