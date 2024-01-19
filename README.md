@@ -49,16 +49,14 @@ The ShopSwift project is organized with a modular structure to enhance code main
 
   - **`firebase/`**: Stores configuration files for Firebase.
 
-  - **`pages/`**: Home components representing different pages of the website.
-    - `Admin`, `AllProducts`, `Orders`: Components for admin-related pages, Contains files related to the admin dashboard.
+  - **`pages/`**: Components representing different pages of the website.
+    - `Admin`, `AllProducts`, `Orders`: Components for admin-related pages.
     - `Cart`, `Home`, `NoPage`, `ProductInfo`, `Registration`: Components for various user-facing pages.
 
   - **`redux/`**: Manages Redux-related files for state management.
     - `Slices`, `Store`: Redux slices and store configuration.
 
 - **`public/`**: Includes public assets such as images and icons.
-
-
 
 ## Getting Started
 
@@ -74,11 +72,12 @@ The ShopSwift project is organized with a modular structure to enhance code main
    npm start
 4. **Open in Browser::**
    ```bash
-   Open your browser and navigate to http://localhost:3000.
+   Open your browser and navigate to http://localhost:3000
 
 ## Deployment
 The application is deployed on Firebase. You can access it at https://shopswift-8d6f1.web.app/signup
 
+## License
 This project is for learning purpose. Feel free to use, modify, and distribute the code.
 
 ## Happy Shopping with ShopSwift! 🛒✨
